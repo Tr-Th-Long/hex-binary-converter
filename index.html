@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hex-Bin-Converter</title>
+  <meta charset="UTF-8">
+  <meta name="Keywords"     content="binary, hex, 32-bit unsigned integer, conversion">
+  <meta name="viewport"     content="width=device-width, initial-scale=1">
+  <meta name="Author"       content="Tran Thanh Long">
+  <meta name="description"  content="Binary - 32-bit hex conversion">  
+  
+  <link rel="stylesheet"     href="main.css" />
+  <script src="script.js"></script>
+</head>
+
+<body class="eupopup eupopup-bottomleft eupopup-style-compact">
+  <div id="wrap">
+  <div id="header">
+    ❤❤❤ TRẦN THÀNH LONG ❤❤❤
+  </div>
+
+  <div id="main">
+    <h1>BINARY - 32-BIT HEXADECIMAL CONVERSION</h1>
+    <form name="frmConvert">
+      <p><strong>BINARY:</strong></p>
+      <p>
+        <table>
+          <tr>
+            <td>Bit</td>
+            <td>#31</td>
+            <td>#30</td>
+            <td>#29</td>
+            <td>#28</td>
+            <td>#27</td>
+            <td>#26</td>
+            <td>#25</td>
+            <td>#24</td>
+            <td>#23</td>
+            <td>#22</td>
+            <td>#21</td>
+            <td>#20</td>
+            <td>#19</td>
+            <td>#18</td>
+            <td>#17</td>
+            <td>#16</td>
+          </tr>
+          <tr>
+            <td>Value</td>
+            <td><input type="checkbox" name="chbBit31" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit30" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit29" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit28" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit27" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit26" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit25" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit24" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit23" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit22" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit21" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit20" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit19" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit18" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit17" onchange="binChange()"></td>
+            <td><input type="checkbox" name="chbBit16" onchange="binChange()"></td>
+            </tr>
+
+            <tr>
+              <td>Bit</td>
+              <td>#15</td>
+              <td>#14</td>
+              <td>#13</td>
+              <td>#12</td>
+              <td>#11</td>
+              <td>#10</td>
+              <td>#9</td>
+              <td>#8</td>
+              <td>#7</td>
+              <td>#6</td>
+              <td>#5</td>
+              <td>#4</td>
+              <td>#3</td>
+              <td>#2</td>
+              <td>#1</td>
+              <td>#0</td>
+            </tr>
+
+            <tr>
+              <td>Value</td>
+              <td><input type="checkbox" name="chbBit15" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit14" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit13" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit12" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit11" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit10" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit9" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit8" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit7" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit6" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit5" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit4" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit3" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit2" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit1" onchange="binChange()"></td>
+              <td><input type="checkbox" name="chbBit0" onchange="binChange()"></td>
+            </tr>            
+        </table>
+      </p>
+        <div>
+          <button type="button" class="FF" id="button1" onclick="AllChecked()">FFFF_FFFF</button>
+          <button type="button" class="FF" id="button2" onclick="UnChecked()">0000_0000</button>
+          <button type="button" class="FF" id="button3" onclick="Toggle()">TOGGLE</button>
+        </div>
+        <div>
+          <strong>HEX:</strong> <input type="text" name="hex" value="0x00000000"  onchange="hexChange()" onkeyup="hexChange()">
+        </div>
+        <div id="cpp">
+          <button type="button" id="button4" onclick="COPY()">COPY</button>
+          <button type="button" id="button5" onclick="PASTE()">PASTE</button>
+        </div>
+        
+    </form>
+  </div>
+
+</body>
+</html>
+

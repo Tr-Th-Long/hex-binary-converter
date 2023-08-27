@@ -1,0 +1,153 @@
+body,
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  margin:0;
+  padding:0;
+  background:#352F44;
+  text-align:center;
+  color:#000;
+
+  min-height: 100%;
+  margin-bottom: 1px;  
+}
+
+#wrap {
+  background:#B9B4C7;
+  margin:0 auto;
+  width:960px;
+}
+
+#header {
+  color:#000; 
+  background: #F3FDD8;
+  height: 50px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+#main {
+  background:#B9B4C7;
+  margin: auto;
+  /* text-align:left; */
+  width:900px;
+  min-height:480px;
+}
+
+table{
+  border-spacing: 4px;
+  width:100%;
+}
+
+.FF {
+  margin: 20px 40px 20px 40px;
+  padding: 10px 40px 10px 40px;
+}
+
+/* .group:nth-child(even) {
+  text-align: justify;
+  background:#FFE5E5;
+}
+
+.group:nth-child(odd){
+  text-align: justify;
+  background: #FFBFBF;
+} */
+td {
+  padding: 2px ;
+}
+
+tr {
+  padding : 30px;
+}
+
+td:nth-child(8n+2){
+  background: #FFE5E5;
+}
+td:nth-child(8n+3){
+  background: #FFE5E5;
+}
+td:nth-child(8n+4){
+  background: #FFE5E5;
+}
+td:nth-child(8n+5){
+  background: #FFE5E5;
+}
+
+td:nth-child(8n+6){
+  background: #FFBFBF;
+}
+td:nth-child(8n+7){
+  background: #FFBFBF;
+}
+td:nth-child(8n+8){
+  background: #FFBFBF;
+}
+td:nth-child(8n+9){
+  background: #FFBFBF;
+}
+
+input[type="checkbox"]{
+  /* display:none; */
+  width: 30px;
+  height: 30px;
+}
+
+input[type="text"]{
+  /* display:none; */
+  width: 280px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+strong {
+  font-size: 30px;
+
+}
+
+#cpp{
+  margin: 20px ;
+}
+
+.FF {
+  margin: 20px 40px 20px 40px;
+  padding: 10px 40px 10px 40px;
+}
+
+#button1{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#button2{
+  background-color: #008CBA;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#button3{
+  background-color:  #f44336;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#button4{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 10px;
+  width: 150px;
+  padding: 10px 40px 10px 40px;
+}
+#button5{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 10px;
+  width: 150px;
+  padding: 10px 40px 10px 40px;
+}
